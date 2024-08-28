@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>EpikBrawl - Shelly</title>
+</head>
+<body>
+    <img src="/brw-logos/Brawl_Shelly.png" class="brawllogos" alt="Shelly">
+    <button id="shelly-info-button" class="brawlinfobutton" style="transform: translate(15px, -30px) on;" onclick="shellyinfo()">INFO</button>
+    <button id="shelly-stat" class="brawlinfobutton" style="transform: translate(15px, -30px) on;" onclick="shellystat()">STATS</button>
+    <button id="shelly-stat" class="brawlinfobutton" style="transform: translate(15px, -30px) on;" onclick="shellyanti()">ANTI</button>
+    <p class="brawlinfo" id="shelly-info">Shelly:</p>
+<script>
+    function shellyinfo() {
+    
+    document.getElementById("shelly-info").innerText = "Shelly, sıradan bir savaşçıdır ve oyunun başında açılır. Shelly oyuna ilk girdiğinizde elinizde olan tek karakterdir. Starr Yolu'nda bulunmayan tek karakterdir. Yüksek Hasar sınıfında bulunmasıyla birlikte hem normal saldırı hem de süper saldırısını av tüfeğiyle yapmaktadır. Günlük ödüllerin ilk gününde kendisi için Bandita Shelly adında bir kostüm vardır. Ayrıca ilk savaşçı olmasına rağmen çok güçlü ve tercih edilen bir savaşçıdır";
+ }
+    function shellystat() {
+        document.getElementById("shelly-info").innerText = "Shelly\n\nSaglik: 7200\nSaldiri(Av Tufegi):5x600\nSuper Hasari (Super Fisek): 9x640 ";
+    }
+    function shellyanti() {
+        document.getElementById("shelly-info").innerText = "Anti: Atici, keskin nisanci\nDezAnti: Tank, Mortis";
+    }
+    </script>
+       </body>
+</html>

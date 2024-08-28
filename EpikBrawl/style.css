@@ -1,0 +1,19 @@
+#welcomeword {
+    color: rgb(6, 88, 54);
+    transform: translate(235px, 40px);
+}
+body {
+    background-color: #3b3573;
+}
+.brawllogos{
+    height: 64px;
+    width: 64px;
+}
+.brawlinfobutton{
+    background-color: brown;
+    color: black;
+    cursor: pointer;
+}
+.brawlinfo{
+    color: white;
+}
